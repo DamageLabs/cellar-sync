@@ -28,3 +28,13 @@ npm-debug.log*
 
 # Coverage
 coverage/
+
+# Database files
+data/
+
+# Drizzle
+.drizzle/
+
+# Playwright
+playwright-report/
+test-results/
