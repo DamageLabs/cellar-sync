@@ -1,7 +1,7 @@
 # CellarSync Development Roadmap
 
 > Auto-generated from open GitHub issues on 2026-02-10
-> **33 issues** across **4 milestones** | **0% complete**
+> **33 issues** across **4 milestones** | **3% complete**
 
 ---
 
@@ -33,7 +33,7 @@ Issues on the same line can be worked on in parallel.
 ```
 PHASE 1: FOUNDATION
 ────────────────────────────────────────────────────────────────────
-#59 Monorepo scaffolding
+#59 Monorepo scaffolding ✅
  ├──► #60 Shared package (Zod schemas, types, constants)
  ├──► #61 Fastify API server
  │     └──► #62 SQLite + Drizzle ORM
@@ -79,7 +79,7 @@ PHASE 4: POLISH & DEPLOY
 
 | #                      | Issue                                                        | Area                           | Priority | Depends On    |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------ | -------- | ------------- |
-| [#59](../../issues/59) | Set up monorepo scaffolding with npm workspaces              | `type:setup`                   | **High** | —             |
+| [#59](../../issues/59) | ~~Set up monorepo scaffolding with npm workspaces~~          | `type:setup`                   | **High** | ✅ Done       |
 | [#60](../../issues/60) | Set up shared package with Zod schemas, types, and constants | `area:backend` `area:frontend` | Medium   | #59           |
 | [#61](../../issues/61) | Set up Fastify API server with TypeScript                    | `area:backend`                 | **High** | #59           |
 | [#62](../../issues/62) | Set up SQLite database with Drizzle ORM                      | `area:database`                | **High** | #61           |
@@ -92,8 +92,7 @@ PHASE 4: POLISH & DEPLOY
 ### Week 1 Focus
 
 Start with the foundation layer — these must be done first and sequentially:
-
-1. **#59** — Monorepo scaffolding (everything depends on this)
+1. ~~**#59** — Monorepo scaffolding~~ ✅
 2. **#61** + **#64** — API server and React SPA (parallel tracks)
 3. **#60** — Shared package (needed before auth and forms)
 4. **#62** — Database schema and ORM
@@ -249,13 +248,13 @@ Multiple parallel workstreams:
 
 ### By Milestone
 
-| Milestone                    | Total  | Done  | Remaining | Progress                        |
-| ---------------------------- | ------ | ----- | --------- | ------------------------------- |
-| Phase 1: Foundation          | 9      | 0     | 9         | ![](https://progress-bar.xyz/0) |
-| Phase 2: Core Inventory      | 8      | 0     | 8         | ![](https://progress-bar.xyz/0) |
-| Phase 3: Tasting & Analytics | 7      | 0     | 7         | ![](https://progress-bar.xyz/0) |
-| Phase 4: Polish & Deploy     | 9      | 0     | 9         | ![](https://progress-bar.xyz/0) |
-| **Total**                    | **33** | **0** | **33**    | ![](https://progress-bar.xyz/0) |
+| Milestone                    | Total  | Done  | Remaining | Progress                         |
+| ---------------------------- | ------ | ----- | --------- | -------------------------------- |
+| Phase 1: Foundation          | 9      | 1     | 8         | ![](https://progress-bar.xyz/11) |
+| Phase 2: Core Inventory      | 8      | 0     | 8         | ![](https://progress-bar.xyz/0)  |
+| Phase 3: Tasting & Analytics | 7      | 0     | 7         | ![](https://progress-bar.xyz/0)  |
+| Phase 4: Polish & Deploy     | 9      | 0     | 9         | ![](https://progress-bar.xyz/0)  |
+| **Total**                    | **33** | **1** | **32**    | ![](https://progress-bar.xyz/3)  |
 
 ### By Area
 

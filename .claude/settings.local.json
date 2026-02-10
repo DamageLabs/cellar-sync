@@ -45,7 +45,11 @@
       "Bash(gh release:*)",
       "Bash(git remote:*)",
       "Bash(xargs ls:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(npm run test:functional:*)",
+      "Bash(npm view:*)",
+      "Bash(npm run format:check:*)",
+      "Bash(npm run format:*)"
     ]
   }
 }
