@@ -3,7 +3,7 @@
 ## Wine Collection Inventory Management System
 
 **Generated from:** [GitHub Issues](https://github.com/DamageLabs/cellar-sync/issues) derived from [PRD](./PRD.md)
-**Last updated:** 2026-02-09
+**Last updated:** 2026-02-10
 
 ---
 
@@ -77,7 +77,7 @@ Issues are linked by technical dependencies. An issue cannot start until its dep
 
 | Order | Issue | Title | Priority | Labels | Dependencies | Parallel? |
 |-------|-------|-------|----------|--------|-------------|-----------|
-| 1 | [#30](https://github.com/DamageLabs/cellar-sync/issues/30) | Scaffold monorepo with npm workspaces | High | setup, frontend, backend | None | Start here |
+| 1 | [#30](https://github.com/DamageLabs/cellar-sync/issues/30) | ~~Scaffold monorepo with npm workspaces~~ | High | setup, frontend, backend | None | **Done** |
 | 2a | [#31](https://github.com/DamageLabs/cellar-sync/issues/31) | Set up SQLite database with Drizzle ORM | High | setup, database | #30 | Yes (with #32) |
 | 2b | [#32](https://github.com/DamageLabs/cellar-sync/issues/32) | Create base API skeleton and health endpoint | High | setup, backend | #30 | Yes (with #31) |
 | 3 | [#33](https://github.com/DamageLabs/cellar-sync/issues/33) | Implement JWT authentication system | High | feature, backend, security | #31, #32 | No |
